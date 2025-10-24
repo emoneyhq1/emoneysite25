@@ -107,7 +107,7 @@ export default function ItemCard({
             </div>
 
             <div className="btn btn-primary w-full mt-4 cursor-pointer select-none">
-                GET DEAL
+                UNLOCK DEAL 🔓
             </div>
         </button>
     );

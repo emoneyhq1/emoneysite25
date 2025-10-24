@@ -19,7 +19,7 @@ export default function RotatingHeadline() {
 
     return (
         <h1 className="text-5xl sm:text-6xl font-black leading-[1.05] tracking-tight">
-            Find deals for{" "}
+            Enter ZIP to instantly see{" "}
             {/* keep on the same line */}
             <span className="whitespace-nowrap inline-flex relative">
                 <AnimatePresence mode="wait">
@@ -35,7 +35,7 @@ export default function RotatingHeadline() {
                     </motion.span>
                 </AnimatePresence>
             </span>{" "}
-            in your ZIP.
+            near you.
         </h1>
     );
 }

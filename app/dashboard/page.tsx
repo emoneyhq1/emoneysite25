@@ -215,7 +215,7 @@ export default function Dashboard() {
                 </div>
 
                 <div className="mt-3 flex items-center justify-center">
-                    <FomoBadge min={200} max={450} durationMs={15 * 60_000} />
+                    <FomoBadge min={200} max={450} durationMs={10 * 60_000} />
                 </div>
 
                 <div className="flex items-center justify-center">
@@ -237,7 +237,7 @@ export default function Dashboard() {
 function FomoBadge({
     min = 200,
     max = 400,
-    durationMs = 15 * 60_000,
+    durationMs = 10 * 60_000,
     autoReset = false,
     onExpire,
     label = "claimed in the last hour",

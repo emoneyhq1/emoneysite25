@@ -184,13 +184,13 @@ export default function Dashboard() {
                 <div className="items-center justify-center text-center">
                     <h3 className="text-xl font-bold">WAIT! 🛑</h3>
                     <p className="text-sm text-white/70 mt-1">
-                        To Unlock Your Deal & Free Access to eMoney Click Below ✅
+                        To Unlock Your Deal & Free Access To eMoney Click Below ✅
                     </p>
 
                 
                     <div className="mt-6">
                         <div className="inline-flex items-center justify-center rounded-xl px-4 py-2 font-semibold transition bg-[color:var(--card)] border border-white/10" onClick={finalizeRoute}>
-                            <div className="w-[10px] h-[10px] rounded-full bg-green-400 animate-pulse"></div> &nbsp; Get Full Access To Everything Below FOR FREE 🔓
+                            <div className="w-[10px] h-[10px] rounded-full bg-green-400 animate-pulse"></div> &nbsp; Get Full Access To Everything Below For Free 🔓
                         </div>
 
                     </div>

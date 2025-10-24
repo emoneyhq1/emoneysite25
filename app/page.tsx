@@ -108,7 +108,7 @@ export default function Landing() {
               onChange={(e) => setZip(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && go()}
             />
-            <button className="btn btn-primary" onClick={go}>ACCESS for FREE</button>
+            <button className="btn btn-primary" onClick={go}>Access For Free</button>
           </div>
           <p className="mt-2 text-xs text-white/60 drop-shadow-2xl">US ZIP codes only.</p>
 
